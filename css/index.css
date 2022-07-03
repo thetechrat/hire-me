@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: aqua;
+}
+
+.greeting {
+  text-align: center;
+}
+
+.bg-text {
+  font-family: "Lexend";
+  font-size: 100px;
+  animation: animate 2s forwards;
+}
+
+@keyframes animate {
+  0% {
+    width: 0px;
+  }
+
+  30% {
+    width: 300px;
+  }
+
+  60% {
+    width: 600px;
+  }
+
+  90% {
+    width: 900px;
+  }
+}
